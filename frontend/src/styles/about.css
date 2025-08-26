@@ -1,0 +1,133 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d2d5dc;
+  color: #d0d0d0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b1a2e;
+  padding: 1rem 2rem;
+  color: white;
+  height: 60px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+  color: #4cd964;
+}
+
+.content {
+  max-width: 4000px;
+  margin: 4rem ;
+  padding: 1rem;
+  text-align: justify;       
+  font-size: 2rem;           
+  line-height: 1.8;            
+  color: #111;                
+  font-family:Georgia, 'Times New Roman', Times, serif\ ; 
+}
+.page-container {
+  background-color: #0e0e11;
+  color: #f5f5f5;
+  min-height: 100vh;   
+  overflow: hidden;    
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-content {
+  flex: 1 1 55%;
+  min-width: 300px;
+}
+
+.about-content h1 {
+  font-size: 5rem;
+  color: #1b9ac5;
+  margin-bottom: 1rem;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.about-content h2 {
+  margin-top: 3rem;
+  color: #1e90ff;
+}
+
+.about-content p,
+.about-content li {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.about-content ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.about-content .intro {
+  max-width: 60ch;      
+  font-size: 2.5rem;    
+  line-height: 2;     
+}
+
+@media (max-width: 768px) {
+  .about-content .intro {
+    font-size: 1.6rem;
+    line-height: 1.7;
+  }
+}
+
+.about-media {
+  flex: 1 1 40%;
+  min-width: 300px;
+  display: flex;
+  justify-content: flex-end;   
+}
+
+.about-media img {
+  width: 100%;
+  max-width: 400px;           
+  height: auto;
+  box-shadow: 0 10px 35px rgba(0,0,0,.35);
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .about-media {
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+}
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 1.25rem 3rem 3rem;      
+  margin-top: 5rem;     
+  margin-left: 5rem;               
+  max-width: 1400px;               
+}

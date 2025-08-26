@@ -1,0 +1,15 @@
+fastapi==0.115.12
+uvicorn==0.34.0
+pydantic==2.10.6
+pyrealsense2==2.55.1.6486
+aiortc==1.11.0
+opencv-python==4.11.0.86
+numpy==2.2.4
+python-socketio==5.13.0
+
+# Testing packages
+pytest==8.3.5
+pytest-asyncio==0.26.0
+pyyaml==6.0.2
+lark==1.2.2
+httpx==0.28.1

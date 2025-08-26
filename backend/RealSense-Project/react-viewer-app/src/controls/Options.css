@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1;
+    margin-bottom: 1rem;
+}
+
+.block {
+    font-style: bold;
+    font-size: 1.2rem;
+}
