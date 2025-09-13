@@ -1,3 +1,6 @@
+![Viewer Screenshot](frontend/public/images/Viewer.png)
+
+
 # RealSense Web Viewer  
 
 View RealSense streams in your browser.  
