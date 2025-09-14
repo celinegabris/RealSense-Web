@@ -1,6 +1,6 @@
 ![Viewer Screenshot](frontend/public/images/Viewer.png)
 
-## 🎥 Demo
+## Demo
 
 [▶ Watch the demo on Google Drive](https://drive.google.com/file/d/1q46vJGoFFjrPOSnUakC3IrsWcuu6iEJV/view?usp=sharing)
 
